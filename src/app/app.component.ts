@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HeaderComponent } from './Components/Header/header.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [HeaderComponent, RouterModule],
   selector: 'angular-vite-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
