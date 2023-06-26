@@ -35,34 +35,19 @@ h1, h2, h3, h4, h5, h6{
 .error{
     color: red;
     animation: shake 0.5s ease-in-out;
-    @keyframes shake {
-        0%{
-            transform: translateX(0);
-        }
-    }
-    @keyframes shake {
-        25%{
-            transform: translateX(10px);
-        }
-    }
-    @keyframes shake {
-        50%{
-            transform: translateX(-10px);
-        }
-    }
-    @keyframes shake {
-        75%{
-            transform: translateX(10px);
-        }
-    }
-    @keyframes shake {
-        100%{
-            transform: translateX(0);
-        }
-    }
-
+ 
     
 }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  

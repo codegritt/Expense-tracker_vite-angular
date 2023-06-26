@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/app/Utils/menuItems.js", "src/app/Components/Navigation/navigation.component.tsx"],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

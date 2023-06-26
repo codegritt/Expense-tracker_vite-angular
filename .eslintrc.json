@@ -2,8 +2,11 @@
   "root": true,
   "ignorePatterns": ["!**/*"],
   "plugins": ["@nx"],
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
 },
 
 "env": {
