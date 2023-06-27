@@ -1,0 +1,14 @@
+.main_income {
+    padding: 10px;
+    flex: 1;
+    background: rgba(252, 246, 249, 0.78);
+    border: 3px solid #FFFFFF;
+    backdrop-filter: blur(4.5px);
+    border-radius: 32px;
+    overflow-x: hidden;
+    width: 70%;
+    height: 90vh;
+    position: relative;
+    left: 400px;
+    bottom: 460px;
+}

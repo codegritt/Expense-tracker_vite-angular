@@ -6,18 +6,23 @@
             <p class="classn">Web Developer</p>
         </div>
     </div>
+    <mat-list class="menuitems" role="list">
+       
+        <mat-list-item role="listitem">
+         
+            <a routerLink="/" routerLinkActive="active"> <mat-icon class="iconstyle">dashboard</mat-icon>Dashboard</a></mat-list-item>
+        <mat-list-item role="listitem"> 
+            <a routerLink="/" routerLinkActive="active"><mat-icon class="iconstyle">currency_exchange</mat-icon>View Transactions</a></mat-list-item>
+        <mat-list-item role="listitem">
+            <a routerLink="/income" routerLinkActive="active"> <mat-icon class="iconstyle">price_check</mat-icon>Incomes</a></mat-list-item>
+        <mat-list-item role="listitem">
+            <a routerLink="/expense" routerLinkActive="active"> <mat-icon class="iconstyle">send_money</mat-icon>Expenses</a></mat-list-item>
+        <mat-list-item role="listitem"> <mat-icon class="iconstyle">logout</mat-icon>Sign out</mat-list-item>
+      </mat-list>
    
- <ul class="menuitems" *ngFor="let menuitem of menuItems">
-
-    <span>{{menuitem.title}}</span>
- </ul>
 
 
 
-    <div className="bottom-nav">
-        <li>
- Sign Out
-        </li>
-    </div>
 
 </div>
+

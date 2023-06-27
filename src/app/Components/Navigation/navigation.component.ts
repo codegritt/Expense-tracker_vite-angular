@@ -1,6 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {MatListModule} from '@angular/material/list';
+import { RouterModule } from '@angular/router';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -11,37 +14,12 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'angular-vite-navigation',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,MatListModule,RouterModule,MatIconModule],
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css'],
 })
 export class NavigationComponent {
 
-  menuItems = [
-    {
-        id: 1,
-        title: 'Dashboard',
-     
-        link: '/dashboard'
-    },
-    {
-        id: 2,
-        title: "View Transactions",
-   
-        link: "/dashboard",
-    },
-    {
-        id: 3,
-        title: "Incomes",
-      
-        link: "/dashboard",
-    },
-    {
-        id: 4,
-        title: "Expenses",
 
-        link: "/dashboard",
-    },
-]
 
 }
