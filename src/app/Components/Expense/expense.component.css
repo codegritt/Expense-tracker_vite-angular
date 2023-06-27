@@ -1,5 +1,4 @@
 .main_expense {
-    padding: 10px;
     flex: 1;
     background: rgba(252, 246, 249, 0.78);
     border: 3px solid #FFFFFF;
@@ -11,4 +10,9 @@
     position: relative;
     left: 400px;
     bottom: 460px;
+}
+
+.inner_expense{
+    padding: 2rem 1.5rem;
+    width: 100%;
 }
